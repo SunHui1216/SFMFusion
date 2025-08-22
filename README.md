@@ -30,7 +30,7 @@ We use the following datasets.
 ## 🚀 Usage
 ### 1)Train
 python train.py
-### 2)Test
+### 2)Test with pretrained weights
 python test.py
-### 3)Evaluate
+### 3)Evaluate metrics
 python test_metric.py
