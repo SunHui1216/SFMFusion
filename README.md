@@ -12,7 +12,7 @@ This repository provides the training and testing code, along with pretrained we
 
 ## 🔧 Requirements
 - Python 3.9.12
-- PyTorch >= 2.0.1
+- PyTorch 2.0.1
 - CUDA 12.2
 - mamba_ssm 2.0.4
 
@@ -24,7 +24,6 @@ We use the following datasets.
 - **M3FD**: [Download here](https://github.com/JinyuanLiu-CV/TarDAL)  
 - **FMB**: [Download here](https://github.com/JinyuanLiu-CV/SegMiF) 
 - **Harvard**: [Download here](https://www.med.harvard.edu/AANLIB/home.html) 
-Please organize the dataset as follows.
 
 ---
 
