@@ -26,13 +26,12 @@ We use the following datasets.
 - **Harvard**: [Download here](https://www.med.harvard.edu/AANLIB/home.html) 
 Please organize the dataset as follows.
 
-'''
-data/
-└── MSRS/
-├── train/
-│ ├── vi/ # visible images
-│ └── ir/ # infrared images
-└── test/
-├── vi/
-└── ir/
-'''
+---
+
+## 🚀 Usage
+### 1)Train
+python train.py
+### 2)Test
+python test.py
+### 3)Evaluate
+python test_metric.py
