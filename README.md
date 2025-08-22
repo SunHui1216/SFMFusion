@@ -21,7 +21,15 @@ This repository provides the training and testing code, along with pretrained we
 ## 📂 Dataset Preparation
 We use the following datasets.
 - **MSRS**: [Download here](https://github.com/Linfeng-Tang/MSRS)
-- **M3FD**: [Download here](TODO_add_M3FD_link)  
-- **TNO**: [Download here](TODO_add_TNO_link) 
-
+- **M3FD**: [Download here](https://github.com/JinyuanLiu-CV/TarDAL)  
+- **FMB**: [Download here](https://github.com/JinyuanLiu-CV/SegMiF) 
+- **Harvard**: [Download here](https://www.med.harvard.edu/AANLIB/home.html) 
 Please organize the dataset as follows.
+data/
+└── MSRS/
+├── train/
+│ ├── vi/ # visible images
+│ └── ir/ # infrared images
+└── test/
+├── vi/
+└── ir/
