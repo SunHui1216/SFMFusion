@@ -14,4 +14,4 @@ This repository provides the training and testing code, along with pretrained we
 - Python 3.9.12
 - PyTorch >= 2.0.1
 - CUDA 12.2
-
+- mamba_ssm 2.0.4
