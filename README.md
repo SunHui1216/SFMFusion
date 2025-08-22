@@ -1,6 +1,6 @@
 # SFMFusion
 
-Official implementation of **"Spatial-Frequency Enhanced Mamba for Multi-Modal Image Fusion" (2025)**
+Official implementation of **"Spatial-Frequency Enhanced Mamba for Multi-Modal Image Fusion"**
 
 ---
 
