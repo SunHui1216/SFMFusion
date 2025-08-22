@@ -15,3 +15,13 @@ This repository provides the training and testing code, along with pretrained we
 - PyTorch >= 2.0.1
 - CUDA 12.2
 - mamba_ssm 2.0.4
+
+---
+
+## 📂 Dataset Preparation
+We use the following datasets.
+- **MSRS**: [Download here](https://github.com/Linfeng-Tang/MSRS)
+- **M3FD**: [Download here](TODO_add_M3FD_link)  
+- **TNO**: [Download here](TODO_add_TNO_link) 
+
+Please organize the dataset as follows.
