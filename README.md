@@ -40,6 +40,12 @@ SFMFusion is a Multi-Modal Image Fusion framework based on the Spatial-Frequency
 ![SFMFusion](tab6.png)
 
 ## Visualizations
+![SFMFusion](fig1.png)
+![SFMFusion](fig2.png)
+![SFMFusion](fig3.png)
+![SFMFusion](fig4.png)
+![SFMFusion](fig5.png)
+![SFMFusion](fig6.png)
 
 ## Reproduction
 ### Datasets
