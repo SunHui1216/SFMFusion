@@ -11,41 +11,57 @@
 ## News
 Exciting news! Our paper has been accepted by the TIP 2025! 🎉 [Paper](<https://arxiv.org/pdf/2511.06593v1>)
 
-# SFMFusion
+## Table of Contents
 
-Official implementation of **"Spatial-Frequency Enhanced Mamba for Multi-Modal Image Fusion"**
+- [Introduction](#introduction)
+- [Contributions](#contributions)
+- [Results](#results)
+- [Visualizations](#visualizations)
+- [Reproduction](#reproduction)
+- [Citation](#citation)
 
----
 
-## 📌 Introduction
-SFMFusion is a Multi-Modal Image Fusion framework based on the Spatial-Frequency enhanced Mamba.  
-This repository provides the training and testing code, along with pretrained weights for reproducing the results in our paper.
+## Introduction
+SFMFusion is a Multi-Modal Image Fusion framework based on the Spatial-Frequency enhanced Mamba. This repository provides the training and testing code, along with pretrained weights for reproducing the results in our paper.
 
----
+## Contributions
 
-## 🔧 Requirements
-- Python 3.9.12
-- PyTorch 2.0.1
-- CUDA 12.2
-- mamba_ssm 2.0.4
+  - We propose a novel framework named SFMFusion for MMIF, which enhances content preservation through IR.
+  - We propose the Spatial-Frequency Enhanced Mamba Block (SFMB) to enhance Mamba in both spatial and frequency domains for comprehensive feature extraction.
+  - We propose the Dynamic Fusion Mamba Block (DFMB) to dynamically fuse the features from different branches.
+  - Extensive experiments on six public benchmarks demonstrate that our method achieves better performances than most state-of-the-art methods.
 
----
+## Results
 
-## 📂 Dataset Preparation
-We use the following datasets.
+## Visualizations
+
+## Reproduction
+### Datasets
+We use the following datasets. Please organize the files following the directory structure of the MSRS folder under data.
 - **MSRS**: [Download here](https://github.com/Linfeng-Tang/MSRS)
 - **M3FD**: [Download here](https://github.com/JinyuanLiu-CV/TarDAL)  
 - **FMB**: [Download here](https://github.com/JinyuanLiu-CV/SegMiF) 
 - **Harvard**: [Download here](https://www.med.harvard.edu/AANLIB/home.html)
-  
-Please organize the files following the directory structure of the MSRS folder under data.
-
----
-
-## 🚀 Usage
-### 1)Train
+### Requirements
+- Python 3.9.12
+- PyTorch 2.0.1
+- CUDA 12.2
+- mamba_ssm 2.0.4
+### Usage
+#### 1)Train
 python train.py
-### 2)Test with pretrained weights
+#### 2)Test with pretrained weights
 python test.py
-### 3)Evaluate metrics
+#### 3)Evaluate metrics
 python test_metric.py
+
+## Citation
+If you find TOP-ReID useful in your research, please consider citing:
+```bibtex
+@article{sun2025spatial,
+  title={Spatial-Frequency Enhanced Mamba for Multi-Modal Image Fusion},
+  author={Sun, Hui and Lv, Long and Zhang, Pingping and Tang, Tongdan and Tian, Feng and Sun, Weibing and Lu, Huchuan},
+  journal={arXiv preprint arXiv:2511.06593},
+  year={2025}
+}
+
