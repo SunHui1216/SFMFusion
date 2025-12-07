@@ -49,14 +49,19 @@ We use the following datasets. Please organize the files following the directory
 - mamba_ssm 2.0.4
 ### Usage
 #### 1)Train
+```train
 python train.py
+```
 #### 2)Test with pretrained weights
+```test
 python test.py
+```
 #### 3)Evaluate metrics
+```test_metric
 python test_metric.py
-
+```
 ## Citation
-If you find TOP-ReID useful in your research, please consider citing:
+If you find SFMFusion useful in your research, please consider citing:
 ```bibtex
 @article{sun2025spatial,
   title={Spatial-Frequency Enhanced Mamba for Multi-Modal Image Fusion},
