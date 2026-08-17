@@ -10,8 +10,8 @@ from models.model import Fusion  ##########change model here##########
 # from thop import profile  # new code
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--root_path', type=str, default='/18851096398/SFMFusion/data/MSRS')  ##########change here##########
-parser.add_argument('--output', type=str, default='/18851096398/SFMFusion/two_stage_2_3')  ##########change here##########
+parser.add_argument('--root_path', type=str, default='/SFMFusion/data/MSRS')  ##########change here##########
+parser.add_argument('--output', type=str, default='/SFMFusion/two_stage_2_3')  ##########change here##########
 parser.add_argument('--dataset_name', type=str, default='MSRS', help='train on this dataset')
 parser.add_argument('--epochs', type=int, default=15)  ##########change here##########
 parser.add_argument('--interval', type=int, default=5)  ##########change here##########
@@ -61,7 +61,7 @@ if __name__ == "__main__":
                  patch_norm=True,
                  ).cuda()
 
-    net.load_state_dict(torch.load('/18851096398/SFMFusion/two_stage_1/MSRS_size=128_weight=1/epoch_4.pth'))
+    net.load_state_dict(torch.load('/SFMFusion/two_stage_1/MSRS_size=128_weight=1/epoch_4.pth'))
     # new code
     # ir = torch.randn(1, 1, 1024, 768).cuda()
     # vi = torch.randn(1, 1, 1024, 768).cuda()
