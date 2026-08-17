@@ -3,9 +3,9 @@ import numpy as np
 from utils.evaluator import Evaluator
 from utils.common import image_read_cv2
 # MSRS RoadScene TNO M3FD FMB MRI_CT MRI_PET MRI_SPECT
-test_folder = '/18851096398/SFMFusion/data/MSRS/test'
-result_folder = '/18851096398/SFMFusion/two_stage_2_3/MSRS_size=128_weight=1/epoch_14'
-output_file = '/18851096398/SFMFusion/two_stage_2_3/MSRS_size=128_weight=1/epoch_14.txt'
+test_folder = '/SFMFusion/data/MSRS/test'
+result_folder = '/SFMFusion/epoch_14'
+output_file = '/SFMFusion/epoch_14.txt'
 
 metric_result = np.zeros((9))
 
