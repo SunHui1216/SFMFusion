@@ -11,9 +11,9 @@ from models.model import Fusion  ##########change model here##########
 
 # MSRS RoadScene TNO M3FD FMB MRI_CT MRI_PET MRI_SPECT
 def test_fusion(args):
-    save_dir = '/18851096398/SFMFusion/two_stage_2_3/MSRS_size=128_weight=1/epoch_14'
+    save_dir = '/SFMFusion/two_stage_2_3/MSRS_size=128_weight=1/epoch_14'
     os.makedirs(save_dir, exist_ok=True)
-    fusion_model_path = '/18851096398/SFMFusion/two_stage_2_3/MSRS_size=128_weight=1/epoch_14.pth'
+    fusion_model_path = '/SFMFusion/two_stage_2_3/MSRS_size=128_weight=1/epoch_14.pth'
 
     net = Fusion(in_chans=1,
                  out_chans=1,
@@ -87,7 +87,7 @@ def test_fusion(args):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--root_path', type=str, default='/18851096398/SFMFusion/data/MSRS')  ##########change here##########
+    parser.add_argument('--root_path', type=str, default='/SFMFusion/data/MSRS')  ##########change here##########
     args = parser.parse_args()
     test_fusion(args)
 
